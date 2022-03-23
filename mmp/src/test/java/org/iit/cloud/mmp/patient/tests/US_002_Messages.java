@@ -20,7 +20,7 @@ public class US_002_Messages extends BaseClass{
 	{
 		helperObj = new HelperClass(driver);
 		helperObj.launchBrowser("http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/portal/login.php");
-		HelperClass helperObj = new HelperClass(driver);
+		 
 
 		helperObj.login("ria1","Ria12345");
 

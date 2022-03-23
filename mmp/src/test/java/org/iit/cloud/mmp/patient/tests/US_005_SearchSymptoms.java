@@ -2,6 +2,7 @@ package org.iit.cloud.mmp.patient.tests;
 
 import java.time.Duration;
 
+import org.iit.cloud.mmp.BaseClass;
 import org.iit.cloud.mmp.HelperClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,9 +16,9 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class US_005_SearchSymptoms {
+public class US_005_SearchSymptoms extends BaseClass {
 
-	WebDriver driver;
+ 
 	@Test(description="TC_001_search_symptoms")
 	public void search_symptoms()
 	{
