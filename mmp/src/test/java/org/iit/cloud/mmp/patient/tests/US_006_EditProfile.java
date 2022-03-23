@@ -14,5 +14,6 @@ public class US_006_EditProfile extends BaseClass {
 		helperObj.launchBrowser("http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/portal/login.php");
 		helperObj.login("ria1","Ria12345");
 		helperObj.navigateToAmodule("Messages"); 
+		System.out.println("Printing");
 	} 
 }
